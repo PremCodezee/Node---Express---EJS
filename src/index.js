@@ -19,6 +19,14 @@ app.get("/services", (req, res) => {
   res.render("services");
 });
 
+app.get("/contact", (req, res) => {
+  res.render("contact");
+});
+
+app.get("/about", (req, res) => {
+  res.render("about");
+});
+
 // dynamic routes
 // app.get("/about/:name", (req, res) => {
 //   res.send(req.params.name + ": he is very good person");
