@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Basic layout */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header styles */
+header {
+    background: #4CAF50;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+nav .nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Section styles */
+section {
+    padding: 2rem;
+}
+
+section h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+section p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Service cards */
+.service-card {
+    background: #f1f1f1;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.service-card h2 {
+    margin-bottom: 0.5rem;
+}
+
+/* Footer styles */
+footer {
+    background: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto;
+}
+
+</style>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Medicare</div>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="services">
+            <h1>Our Services</h1>
+            <div class="service-card">
+                <h2>Primary Care</h2>
+                <p>Comprehensive primary care services to keep you healthy. Our experienced doctors and healthcare professionals provide routine check-ups, vaccinations, and preventive care.</p>
+            </div>
+            <div class="service-card">
+                <h2>Specialty Care</h2>
+                <p>Expert specialists for all your specific health needs. We offer specialized services in cardiology, neurology, orthopedics, and more to ensure you receive the best possible care.</p>
+            </div>
+            <div class="service-card">
+                <h2>Emergency Care</h2>
+                <p>24/7 emergency care services for urgent health issues. Our emergency department is equipped to handle any medical emergency, providing immediate and effective treatment.</p>
+            </div>
+            <div class="service-card">
+                <h2>Laboratory Services</h2>
+                <p>State-of-the-art laboratory services for accurate and timely diagnosis. We offer a wide range of tests and screenings to help you stay informed about your health.</p>
+            </div>
+            <div class="service-card">
+                <h2>Pharmacy Services</h2>
+                <p>Convenient pharmacy services to fulfill your medication needs. Our on-site pharmacy provides prescription medications, over-the-counter drugs, and professional advice.</p>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Medicare. All rights reserved.</p>
+    </footer>
+</body>
+</html>
